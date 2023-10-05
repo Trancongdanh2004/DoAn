@@ -1,0 +1,129 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.container {
+    max-width:1200px;
+    height:35px;
+    margin:auto;
+}
+header{
+    background-color:yellow;
+    text-align:center;
+    height:44px;
+}
+/*Thẻ nav*/
+nav{
+    background-color:yellow;
+}
+nav ul{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav ul li, a{
+    color:black;
+    font-size:12px;
+}
+nav ul li:nth-child(2) a {
+    color: black;
+}
+nav ul li:nth-child(2) i {
+    color:black;
+    font-size:15px;
+    margin-left:6px;
+}
+nav ul li:nth-child(3) {
+    position:relative;
+}
+nav ul li:nth-child(3) input {
+    height:30px;
+    width:100%;
+    border-radius:5px;
+    border:none;
+    padding-left:6px;
+    outline:none;
+}
+nav ul li:nth-child(3) i {
+    position:absolute;
+    font-size:15px;
+    right:12px;
+    color:black;
+    line-height:30px;
+    cursor:pointer;
+}
+
+nav ul li:nth-child(4) button {
+    height:30px;
+    padding:0 10px;
+    cursor:pointer; 
+    background-color:darkgoldenrod;
+    color:black;
+    border-radius:10px;
+    transition: all 0.3s ease;
+}
+nav ul li:nth-child(4) button i {
+    margin-right:10px;
+}
+nav ul li:nth-child(4) button:hover {
+    background-color:#808080;
+}
+
+nav ul li:nth-child(5) button {
+    height:30px;
+    padding:0 10px;
+    cursor:pointer; 
+    background-color:darkgoldenrod;
+    color:black;
+    border-radius:10px;
+    transition: all 0.3s ease;
+}
+nav ul li:nth-child(5) button i {
+    margin-right:10px;
+}
+nav ul li:nth-child(5) button:hover {
+    background-color:#808080;
+}
+/*Thẻ section*/
+.menu-bar {
+    background-color:yellow;
+
+}
+/*.container2 {
+    max-width: 1200px;
+    height: 35px;
+    margin: auto;
+}*/
+.menu-bar ul {
+    display:flex;
+    justify-content:space-between;
+
+
+}
+.menu-bar ul li a {
+    color:black;
+    font-size:16px;
+}
+
+.menu-bar ul li a i {
+    margin-right:6px;
+    font-size:16px;
+}
+.menu-bar ul li {
+    padding:15px 6px;
+    transition:all 0.3s ease;
+}
+/*.menu-bar ul li:hover {
+    background-color:cornflowerblue;
+}*/
+.menu-bar ul li:nth-child(9) {
+    position:relative;
+}
